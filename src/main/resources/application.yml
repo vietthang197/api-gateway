@@ -11,8 +11,8 @@ spring:
       resourceserver:
         opaquetoken:
           introspection-uri: http://localhost:8080/auth/realms/spring-boot-realm/protocol/openid-connect/token/introspect
-          client-id: my-client-id
-          client-secret: H9Go2mW1b0TOkeDkLtZRDqn058OSz2CM
+          client-id: api-gateway
+          client-secret: 4a78bb0b-988e-4bc8-8f7a-a32b66bbd321
 server:
   port: 8765
 eureka:
